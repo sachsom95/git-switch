@@ -1,0 +1,23 @@
+{
+  "name": "git-switch",
+  "version": "1.0.0",
+  "description": "Node based CLI tooling to switch git profiles",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachsom95/git-switch.git"
+  },
+  "keywords": [
+    "git",
+    "git-profile"
+  ],
+  "author": "sachin soman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachsom95/git-switch/issues"
+  },
+  "homepage": "https://github.com/sachsom95/git-switch#readme"
+}
