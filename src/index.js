@@ -1,9 +1,13 @@
-'use strict'
-export function helloWorld() {
-	console.log("Hello, World")
-	return "Hello, World"
-}
+import inquirer from 'inquirer';
 
-module.exports = {
-	helloWorld
-}
+inquirer
+	.prompt([
+		{
+			type: 'input',
+			name: 'name',
+			message: "What's your name?",
+		},
+	])
+	.then((answers) => {
+		console.log(`Hello, ${answers.name}!`);
+	});
